@@ -10,8 +10,7 @@ const camera = new SPLAT.Camera();
 const controls = new SPLAT.OrbitControls(camera, canvas);
 
 async function main() {
-  const url =
-    "https://huggingface.co/datasets/dylanebert/3dgs/resolve/main/bonsai/bonsai-7k-mini.splat";
+  const url = "./assets/bonsai-7k.splat";
 
   await SPLAT.Loader.LoadAsync(
     url,
